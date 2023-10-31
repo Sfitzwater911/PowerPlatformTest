@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1514d777-d103-49c9-9041-bb2cdc357d57}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{0bec2e8d-9d2f-422b-b1e7-d1a5b3c041d4}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6e271c41-bbf0-4ae6-b0da-fd6fee0d9538}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eb062f32-d45f-4538-bdfe-542dd4fcc85e}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ait_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ait_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44d58ac4-2828-4601-a6ad-b145991bdd8c}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4313fa7-eb3f-4c75-9b26-00ded40f939f}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="ait_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ait_project" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{27fcab56-afc0-4b5e-9791-f91f8a176fcf}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="ConnectWise Ticket" languagecode="1033" />
+                        </labels>
+                        <control id="ait_connectwiseticket" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ait_connectwiseticket" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7f1322f8-a607-41ba-9b87-d87f748ed736}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Stage" languagecode="1033" />
+                        </labels>
+                        <control id="ait_stage" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ait_stage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{43317eea-4f8e-477f-8dac-418cd494211c}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Stage Status" languagecode="1033" />
+                        </labels>
+                        <control id="ait_stagestatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ait_stagestatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{242e16e1-a5da-44f2-b56b-f0a77d5df1e7}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Stage % Complete" languagecode="1033" />
+                        </labels>
+                        <control id="ait_stagecomplete" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ait_stagecomplete" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47284c37-e77d-44c9-9d49-8f1a0a126c01}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4e310f6-69f1-4f5e-873f-29368ead80d3}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="ait_startdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ait_startdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ff2d078f-5efa-4e98-8a0e-88224bc554fd}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="ait_enddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ait_enddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b6b604e-be5d-464c-8873-9982d4d45921}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Milestone Sign-Off Received" languagecode="1033" />
+                        </labels>
+                        <control id="ait_milestonesignoffreceived" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ait_milestonesignoffreceived" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{f542eece-b969-469e-bb3e-f11903fd4a2a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fce34514-03c3-46b5-9f89-2556f40d41a4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{321915d1-0927-44ea-acd0-50a832159288}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c88b152f-0511-4fdc-b565-d14064639873}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{e3707a6d-14c7-4712-b11b-e209b06c8884}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{81bff64b-21b1-49fb-9aa8-52b4f5b5c07e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e3efe1d8-ab8e-4ad6-b65e-677d9fdc5a3e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{551437bf-566d-40e1-87a8-faa08c170890}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3a588d6c-0845-420c-8b58-7e83e2fab7b1}</savedqueryid>
+    <layoutxml>
+      <grid name="ait_projectstageses" jump="ait_name" select="1" icon="1" preview="1">
+        <row name="ait_projectstages" id="ait_projectstagesid">
+          <cell name="ait_name" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="ait_project" width="100" />
+          <cell name="ait_stage" width="100" />
+          <cell name="ait_stagecomplete" width="145" />
+          <cell name="ait_stagestatus" width="109" />
+          <cell name="statuscode" width="119" />
+          <cell name="ait_enddate" width="100" />
+          <cell name="ait_connectwiseticket" width="154" />
+          <cell name="ait_milestonesignoffreceived" width="205" />
+          <cell name="ait_startdate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ait_projectstages">
+          <attribute name="ait_projectstagesid" />
+          <attribute name="ait_name" />
+          <attribute name="createdon" />
+          <order attribute="ait_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ait_project" />
+          <attribute name="ait_stagecomplete" />
+          <attribute name="ait_stagestatus" />
+          <attribute name="statuscode" />
+          <attribute name="ait_enddate" />
+          <attribute name="ait_connectwiseticket" />
+          <attribute name="ait_milestonesignoffreceived" />
+          <attribute name="ait_startdate" />
+          <attribute name="ait_stage" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Project Stages Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

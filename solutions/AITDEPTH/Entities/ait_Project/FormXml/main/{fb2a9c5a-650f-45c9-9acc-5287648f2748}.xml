@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{fb2a9c5a-650f-45c9-9acc-5287648f2748}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{8f8c35a9-7739-44ac-8f05-12934e13079a}" IsUserDefined="1" name="tabGeneral">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e668e456-e066-4c3a-a84f-3c4b790b7243}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{65339f51-cec4-45cd-b417-266daa45d195}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ait_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ait_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb869dfe-3935-4311-b63a-b3495e2d2dc7}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89aae8e0-169b-4988-adfd-cd0770a4c0c4}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Anticipated Go-Live" languagecode="1033" />
+                        </labels>
+                        <control id="ait_anticipatedgolive" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ait_anticipatedgolive" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3f41bbab-e89d-4fee-80ef-b75e565ee090}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Client" languagecode="1033" />
+                        </labels>
+                        <control id="ait_client" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ait_client" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{793c8917-a4e9-49a7-90f8-8595b3531975}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Project Manager" languagecode="1033" />
+                        </labels>
+                        <control id="ait_projectmanager" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ait_projectmanager" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1cae44b-70c1-4469-911b-299ab9591da2}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Sales Executive" languagecode="1033" />
+                        </labels>
+                        <control id="ait_salesexecutive" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ait_salesexecutive" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b23e9d25-8032-4549-92a7-9dbbe4f770e1}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Internal Kickoff" languagecode="1033" />
+                        </labels>
+                        <control id="ait_internalkickoff" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ait_internalkickoff" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{982b56b1-f30c-4f0e-9d61-8c56f339bb85}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Client Kickoff" languagecode="1033" />
+                        </labels>
+                        <control id="ait_clientkickoff" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ait_clientkickoff" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{928704c7-8193-49d2-9c48-d942fef18889}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{5145eb94-1dbe-4a90-81e4-f47f6338d79c}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="Technology" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>ait_technology</TargetEntityType>
+                            <ViewId>{5F8940DD-D1F6-4CB1-A2FA-41EED426E2C7}</ViewId>
+                            <ViewIds>{5F8940DD-D1F6-4CB1-A2FA-41EED426E2C7}</ViewIds>
+                            <RelationshipName>ait_Technology_ait_Project_ait_Project</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="sectionProjectTeamMembers" id="91cf9624-061a-4ea7-889f-7fe2a2d59167" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Project Team Members" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{cc99d2ac-a5f0-474b-b585-dca45b0258dc}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="Project Stages" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgridProjectTeamMembers" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>ait_projectteammember</TargetEntityType>
+                            <ViewId>{01CBAA9C-3F97-4437-9207-74A4DEC417E1}</ViewId>
+                            <ViewIds>{01CBAA9C-3F97-4437-9207-74A4DEC417E1}</ViewIds>
+                            <RelationshipName>ait_ProjectTeamMember_ait_Project_ait_Pro</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="sectionProjectStages" id="28bd3883-acaa-4a67-8078-fa72f504d263" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Project Stages" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{e27f4ad4-0cce-4ba6-bff6-c577781c02a1}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="Project Team Members" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgridProjectStages" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>ait_projectstages</TargetEntityType>
+                            <ViewId>{E8CF90BF-C300-462F-981C-726BC00C9FB0}</ViewId>
+                            <ViewIds>{E8CF90BF-C300-462F-981C-726BC00C9FB0}</ViewIds>
+                            <RelationshipName>ait_ait_projectstages_Project_ait_project</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="sectionProjectIDS" id="c119a5f3-2511-432c-9de5-82a44e6480c1" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Project IDS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{94d5bcbb-9d5d-4aeb-a388-dfb73d1965ce}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="Project Stages" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgridProjectIDS" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>ait_projectids</TargetEntityType>
+                            <ViewId>{EECFA070-76C0-4499-ADA3-22C0559413C3}</ViewId>
+                            <ViewIds>{EECFA070-76C0-4499-ADA3-22C0559413C3}</ViewIds>
+                            <RelationshipName>ait_ProjectIDS_ait_Project_ait_Project</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2eec901c-8282-441a-91e6-a8817f149d62}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{50d07173-7d09-4264-91c5-0fa874cce665}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f1681530-3b48-43f7-aae4-2980febca63e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{602e9111-01ff-41ee-b28e-f51a77950d5b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a677c270-0d30-41b4-8e35-4a0350701c35}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{582e656a-9507-4668-a648-89e254c96611}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d8bd594e-be97-4f78-b4e2-1eb30681b09d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3029f297-45e2-4658-8c69-b8a3d6881f43}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

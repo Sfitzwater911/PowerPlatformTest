@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a01a1806-210f-4937-bb28-1882fc6504ba}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ait_name" select="1" icon="1" preview="1">
+        <row name="result" id="ait_projectid">
+          <cell name="ait_name" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="ait_anticipatedgolive" width="157" />
+          <cell name="ait_client" width="100" />
+          <cell name="ait_projectmanager" width="133" />
+          <cell name="ait_salesexecutive" width="130" />
+          <cell name="ait_internalkickoff" width="131" />
+          <cell name="ait_clientkickoff" width="122" />
+          <cell name="statuscode" width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ait_project">
+          <attribute name="ait_projectid" />
+          <attribute name="ait_name" />
+          <attribute name="createdon" />
+          <order attribute="ait_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="ait_anticipatedgolive" />
+          <attribute name="ait_client" />
+          <attribute name="ait_projectmanager" />
+          <attribute name="ait_salesexecutive" />
+          <attribute name="ait_internalkickoff" />
+          <attribute name="ait_clientkickoff" />
+          <attribute name="statuscode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Projects" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
