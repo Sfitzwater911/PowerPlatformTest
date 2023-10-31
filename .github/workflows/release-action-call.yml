@@ -14,7 +14,7 @@ jobs:
       #You can specify the solution name here
       solution_name: AITDEPTH
       #Update your values here
-      BUILD_ENVIRONMENT_URL: 'https://srj-alm-dev.crm.dynamics.com/'
+      BUILD_ENVIRONMENT_URL: 'https://srj-alm-test.crm.dynamics.com'
       PRODUCTION_ENVIRONMENT_URL: 'https://srj-alm-prod.crm.dynamics.com/'
       CLIENT_ID: 'b668b698-3014-42d9-a119-ba477e794d8e'
       TENANT_ID: '3a5ea888-14f4-4f64-856c-712f89123b5e'     
